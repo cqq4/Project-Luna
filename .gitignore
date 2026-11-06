@@ -1,0 +1,26 @@
+# Chaves e configurações privadas
+.env
+.env.*
+!.env.example
+
+# Ambientes Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# PyInstaller
+build/
+dist/
+
+# Arquivos temporários
+*.log
+*.tmp
+
+# Editores
+.vscode/
+.idea/
+
+# Sistema
+Thumbs.db
+.DS_Store
